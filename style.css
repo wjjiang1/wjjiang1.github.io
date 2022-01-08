@@ -45,10 +45,8 @@ body {
 
 .body {
   text-align: justify;  
-  
-  
   font-size: 110%;
-  margin: auto 200px;
+  margin: auto 10%;
 }
 
 #SSIS {
@@ -60,14 +58,29 @@ body {
 }
 
 .links {
-  color: auto;
   display: flex;
   justify-content: center;
   size: 300%;
+  text-decoration: none;
+}
+
+.links a {
+  text-decoration: none;
 }
 
 .links i {
-  color: black;
-  margin: 20px;
+  color:black;
+  margin: 20px 20px 0px;
 }
 
+i:hover {
+  color: rgb(83, 83, 83);
+}
+
+h4 {
+  text-align: center;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: black;
+}
