@@ -1,4 +1,73 @@
-.meImg {
-  width: 15%;
-  border-radius: 50%;
+#navbar {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  background-color: darkkhaki;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  font-size: x-large;
 }
+
+#navbar li {
+  display: inline; 
+  margin: 0 100px;
+}
+
+#navbar li a {
+  color: black;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  text-align: center;
+}
+
+.meImg {
+  display: block;
+  width: 20%;
+  border-radius: 50%;
+  margin: auto;
+}
+
+body {
+  background-color: lemonchiffon;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.body {
+  text-align: justify;  
+  
+  
+  font-size: 110%;
+  margin: auto 200px;
+}
+
+#SSIS {
+  color: cornflowerblue;
+}
+
+#SSIS:hover {
+  color: rgb(17, 0, 255);
+}
+
+.links {
+  color: auto;
+  display: flex;
+  justify-content: center;
+  size: 300%;
+}
+
+.links i {
+  color: black;
+  margin: 20px;
+}
+
