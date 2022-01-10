@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #navbar {
   display: flex;
   list-style-type: none;
@@ -6,7 +10,6 @@
   position: fixed;
   padding: 0;
   margin: 0;
-  border: 0;
   top: 0; 
   left: 0;
   width: 100%;
@@ -15,7 +18,7 @@
 
 #navbar li {
   display: inline; 
-  margin: 0 100px;
+  margin: 0 8%;
 }
 
 #navbar li a {
@@ -49,12 +52,32 @@ body {
   margin: auto 10%;
 }
 
+#projects ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.project1 {
+  display: flex;
+}
+
+.project1-text {
+  padding-left: 20px;
+  top: 0;
+}
+
 #SSIS {
   color: cornflowerblue;
 }
 
 #SSIS:hover {
   color: rgb(17, 0, 255);
+}
+
+#SSIDpic {
+  width: 20%; 
+  height: 20%;
+  float: left; 
 }
 
 .links {
@@ -75,7 +98,7 @@ body {
 
 i:hover {
   color: rgb(83, 83, 83);
-}
+} 
 
 h4 {
   text-align: center;
